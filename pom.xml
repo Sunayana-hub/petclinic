@@ -7,7 +7,7 @@
     <version>1.0.9-RELEASE</version>
 
     <name>petclinic</name>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <properties>
 
