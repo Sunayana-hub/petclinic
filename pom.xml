@@ -289,7 +289,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.0.5</version>
+                <version>3.8.1</version>
                 <configuration>
                     <compilerArguments>
                         <Xlint/>
@@ -360,7 +360,7 @@
                 <version>2.2</version>
                 <configuration>
                     <server>tomcat-development-server</server>
-                    <port>9966</port>
+                    <port>8080</port>
                     <path>/petclinic</path>
                 </configuration>
             </plugin>
