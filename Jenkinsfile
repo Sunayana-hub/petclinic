@@ -34,7 +34,7 @@ node {
     stage('Deploy To Tomcat'){
         sshagent(['app-server']) {
             sh 'scp -o StrictHostKeyChecking=no target/*.war ec2-user@ec2-52-70-39-48.compute-1.amazonaws.com:/root/apache-tomcat-8.5.35/webapps/'
-        }13.127.80.135
+        }
     }
     stage('Smoke Test'){
         sleep 5
